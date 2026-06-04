@@ -1,0 +1,41 @@
+{
+  "name": "panel",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Panel — tu día, en orden. Dashboard personal local-first (finanzas, entrenamiento, calendario y objetivos) hecho con React + Vite + Supabase.",
+  "license": "MIT",
+  "author": "Tu nombre",
+  "homepage": "https://github.com/TU_USUARIO/panel#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TU_USUARIO/panel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TU_USUARIO/panel/issues"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "supabase",
+    "dashboard",
+    "finanzas",
+    "fitness",
+    "local-first",
+    "pwa"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.106.2",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.2",
+    "vite": "^8.0.14"
+  }
+}
