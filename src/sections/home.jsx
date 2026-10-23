@@ -121,7 +121,7 @@ export default function HomeView({ go }) {
             <Ring value={metrics.trainThisWeek} max={5} tone="green" label={metrics.trainThisWeek} sublabel="/ 5" size={58} stroke={7} />
             <div>
               <div className="stat-label">Entrenos esta semana</div>
-              <div style={{ fontFamily: 'var(--display)', fontWeight: 600, marginTop: 3 }}>{metrics.trainThisWeek >= 4 ? 'En racha 🔥' : 'Sigue así'}</div>
+              <div style={{ fontFamily: 'var(--display)', fontWeight: 600, marginTop: 3 }}>{metrics.trainThisWeek >= 4 ? 'En racha' : 'Sigue así'}</div>
               <div className="stat-sub" style={{ marginTop: 2 }}>meta 5/sem</div>
             </div>
           </div>

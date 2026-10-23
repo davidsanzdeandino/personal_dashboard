@@ -1,28 +1,27 @@
 {
-  "name": "panel",
+  "name": "personal-dashboard",
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "Panel — tu día, en orden. Dashboard personal local-first (finanzas, entrenamiento, calendario y objetivos) hecho con React + Vite + Supabase.",
+  "description": "Local-first personal dashboard for finances, training, calendar and goals, built with React, Vite and Supabase. The user interface is in Spanish.",
   "license": "MIT",
-  "author": "Tu nombre",
-  "homepage": "https://github.com/TU_USUARIO/panel#readme",
+  "author": "David Sanz de Andino Díez",
+  "homepage": "https://personal-dashboard-nine-rouge.vercel.app",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TU_USUARIO/panel.git"
+    "url": "https://github.com/davidsanzdeandino/personal_dashboard.git"
   },
   "bugs": {
-    "url": "https://github.com/TU_USUARIO/panel/issues"
+    "url": "https://github.com/davidsanzdeandino/personal_dashboard/issues"
   },
   "keywords": [
     "react",
     "vite",
     "supabase",
     "dashboard",
-    "finanzas",
+    "personal-finance",
     "fitness",
-    "local-first",
-    "pwa"
+    "local-first"
   ],
   "scripts": {
     "dev": "vite",

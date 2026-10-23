@@ -44,7 +44,7 @@ async function fetchPrices() {
 }
 
 // --- Posiciones en Morpho (API GraphQL pública) ---
-// ⚠️ El esquema de la API de Morpho evoluciona. Verifica los campos contra
+// Aviso: el esquema de la API de Morpho evoluciona. Verifica los campos contra
 // https://docs.morpho.org y el playground en https://blue-api.morpho.org/graphql.
 // Si la consulta falla, se devuelve [] y el resto de la respuesta sigue siendo válido.
 async function fetchMorpho(address: string) {
