@@ -2,7 +2,7 @@
 
 A local-first personal dashboard that keeps finances, training, calendar and goals in one place. It runs in the browser, keeps its state in `localStorage` and syncs it to Supabase, so the same data shows up on phone and desktop.
 
-**Live demo:** https://personal-dashboard-nine-rouge.vercel.app (click **"Ver demo"**; no sign-up, sample data only)
+**Demo:** run it locally with the steps below and press **"Ver demo"** (generated sample data, no sign-up).
 
 **The user interface is in Spanish.** Code comments are mostly in Spanish too; this README uses the Spanish labels where it refers to the interface.
 
@@ -85,7 +85,7 @@ npm run preview   # serve the build locally
 
 Import the repository on [Vercel](https://vercel.com), add the two `VITE_` variables and deploy. `vercel.json` rewrites every route to `index.html` for the single-page app. Any static host works.
 
-If you publish a demo, use a **separate Supabase project** from the one that holds your real data. The live demo above runs on its own project.
+If you publish a demo, use a **separate Supabase project** from the one that holds your real data.
 
 ### Demo mode
 
